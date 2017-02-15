@@ -60,7 +60,7 @@ Applying a tool often involves these two methods (note the placeholders <>):
 
 ```R
 biouml.analysis.parameters(<specified method>)
-biouml.analysis.parameters(<specified method>,list(<tool parameters)))
+biouml.analysis.parameters(<specified method>,list(<tool parameters>)))
 ```
 ### Example
 Performing a functional classification analysis on a gene set may
