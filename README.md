@@ -56,11 +56,11 @@ biouml.analysis.list()
 
 An analysis tool is invoked using the *biouml.analysis* method. The parameters
 of a tool can be inspected using the *biouml.analysis.parameters* method.
-Applying a tool often involves these two methods (note the placeholders <>):
+Applying a tool often involves these two methods (note the placeholders <> which need to be substituted):
 
 ```R
 biouml.analysis.parameters(<specified method>)
-biouml.analysis.parameters(<specified method>,list(<tool parameters>)))
+biouml.analysis.parameters(<specified method>,list(<tool parameters>))
 ```
 ### Example
 Performing a functional classification analysis on a gene set may
@@ -71,7 +71,7 @@ look like this:
 my_data <- "data/Projects/My_Project/Data/First_data"
 
 ## This will be the path to the result table
-my_result <- paste(my_data,"_fc_result",sep=""))
+my_result <- paste(my_data,"_fc_result",sep="")
 
 ## This invokes the functional classification analysis according
 ## to disease/gene assocations in HumanPSD.
@@ -79,7 +79,7 @@ biouml.analysis("Functional classification",
                 list(sourcePath = my_data,
                 species = "Human (Homo sapiens)",
                 bioHub = "PROTEOME(TM) disease",
-                outputTable = my_result);
+                outputTable = my_result));
                 
 ## This command loads the result table into an R data frame.
 data <- biouml.get(my_result)
