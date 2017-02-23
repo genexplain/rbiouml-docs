@@ -10,7 +10,9 @@ gx.server <- args[1]
 gx.user   <- args[2]
 gx.passwd <- args[3]
 
-## This is the output path
+## This is the output path, e.g. 'data/Projects/<my_project>/Data/<my_folder>/<output>',
+## where <my_project>, <my_folder> and <output> need to replaced with actual
+## values and the project and the folder need to exist.
 
 output <- args[4]
 
