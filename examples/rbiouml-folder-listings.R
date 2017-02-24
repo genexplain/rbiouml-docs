@@ -43,6 +43,11 @@ biouml.ls("analyses")
 
 biouml.ls("analyses/Methods/Site analysis")
 
+## Note that there is a dedicated method to list the available
+## tools
+
+biouml.analysis.list()
+
 ## Top Galaxy tool folders
 
 biouml.ls("analyses/Galaxy")
