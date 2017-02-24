@@ -1,6 +1,6 @@
 ##
-## Demonstrating how to gather information about the tools and
-## their parameters and how to invoke a platform tool using R
+## Demonstrating how to gather information about workflows and
+## their parameters and how to invoke a workflow using R
 ##
 ## Please specify server, username and password as well 
 ## as the output path as commandline arguments
