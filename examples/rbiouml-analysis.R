@@ -30,7 +30,7 @@ biouml.analysis.list()
 
 biouml.analysis.parameters("Functional classification");
 
-## The example input is located in the Examples folder
+## The input is located in the Examples folder accessible to everyone.
 
 input <- paste("data/Examples/TNF-stimulation of HUVECs GSE2639, Affymetrix HG-U133A microarray/",
                "Data/DEGs with limma/Normalized (RMA) DEGs with limma/Condition_1 vs. Condition_2/",
