@@ -11,7 +11,7 @@ gx.user   <- args[2]
 gx.passwd <- args[3]
 
 ## The fourth argument should be an empty folder that exists in your
-## project.
+## platform project.
 
 ex.folder <- args[4]
 

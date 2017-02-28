@@ -61,7 +61,8 @@ regulators[1:10,1:3]
 
 ## Exporting a network visualization to an image file
 ## To try this step, please replace <molecular network element> by the name of
-## network item in your result folder before running the following command.
+## network visualization item in your result folder before running the 
+## following command.
 ##
 # biouml.export(paste(output,"/<molecular network element>",sep=""),
 #               exporter="Portable Network Graphics (*.png)",
